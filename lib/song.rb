@@ -10,7 +10,7 @@ class Song
 
   # Initialize a new song - include
   # the name, artist, and genre, and
-  # also increment the class's count, 
+  # also increment the class's count,
   # the genre, and the artist to the
   # class variables
   def initialize(name, artist, genre)
