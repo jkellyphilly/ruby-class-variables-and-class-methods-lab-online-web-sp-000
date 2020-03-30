@@ -2,7 +2,7 @@ class Song
 
   attr_accessor = :name, :artist, :genre
 
-  # Class variables 
+  # Class variables
   @@count = 0
   @@artists = []
   @@genres = []
@@ -22,6 +22,10 @@ class Song
   # number of songs we have present
   def self.count
     @@count
+  end
+
+  def self.artists
+    @@artists
   end
 
 end
