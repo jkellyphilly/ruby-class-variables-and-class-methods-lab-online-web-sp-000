@@ -1,9 +1,9 @@
 class Song
 
-  # Class variable for number 
+  # Class variable for number
   # of songs in the class
   @@count = 0
-  
+
   def initialize(name, artist, genre)
     @name = name
     @artist = artist
