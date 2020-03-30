@@ -7,6 +7,7 @@ class Song
   @@count = 0
   @@artists = []
   @@genres = []
+  @@genre_count = {}
 
   # Initialize a new song - include
   # the name, artist, and genre, and
