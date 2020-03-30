@@ -19,7 +19,7 @@ class Song
   end
 
   # Class methods
-  
+
   def self.count
     @@count
   end
