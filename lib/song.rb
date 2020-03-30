@@ -18,14 +18,18 @@ class Song
     @@count += 1
   end
 
-  # Class method for returning the total
-  # number of songs we have present
+  # Class methods
+  
   def self.count
     @@count
   end
 
   def self.artists
     @@artists
+  end
+
+  def self.genres
+    @@genres
   end
 
 end
