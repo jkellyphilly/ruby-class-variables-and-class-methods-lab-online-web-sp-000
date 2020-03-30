@@ -5,6 +5,8 @@ class Song
   # Class variable for number
   # of songs in the class
   @@count = 0
+  @@artists = []
+  @@genres = []
 
   # Initialize a new song - include
   # the name, artist, and genre, and
@@ -21,5 +23,5 @@ class Song
   def self.count
     @@count
   end
-  
+
 end
