@@ -4,6 +4,8 @@ class Song
   # of songs in the class
   @@count = 0
 
+  attr_accessor = :name, :artist, :genre
+
   # Initialize a new song - include
   # the name, artist, and genre, and
   # also increment the class's count
