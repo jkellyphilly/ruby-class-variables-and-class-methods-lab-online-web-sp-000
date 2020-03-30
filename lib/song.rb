@@ -16,6 +16,8 @@ class Song
     @@count += 1
   end
 
+  # Class method for returning the total
+  # number of songs we have present
   def self.count
     @@count
   end
