@@ -25,11 +25,11 @@ class Song
   # Class methods
 
   def self.count
-    @@count
+    
   end
 
   def self.artists
-    
+
   end
 
   def self.genres
