@@ -25,7 +25,7 @@ class Song
   # Class methods
 
   def self.count
-    
+
   end
 
   def self.artists
@@ -33,6 +33,10 @@ class Song
   end
 
   def self.genres
+
+  end
+
+  def self.genre_count
 
   end
 
