@@ -1,10 +1,10 @@
 class Song
 
+  attr_accessor = :name, :artist, :genre
+
   # Class variable for number
   # of songs in the class
   @@count = 0
-
-  attr_accessor = :name, :artist, :genre
 
   # Initialize a new song - include
   # the name, artist, and genre, and
